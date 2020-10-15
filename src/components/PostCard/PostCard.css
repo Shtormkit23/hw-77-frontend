@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to left, rgba(255, 0, 255,0.1) 0%,rgba(135, 206, 250,0.1) 100%);
+}
+
+.Post {
+    padding: 10px 15px;
+    background: linear-gradient(to left, rgba(255, 0, 255,0.2) 0%,rgba(135, 206, 250,0.2) 100%);
+    border: 2px solid rgba(75, 0, 130, 0.4);
+    border-radius: 5px;
+    min-height: 100px;
+    width: 80%;
+    display: flex;
+    cursor: pointer;
+    margin: 0 auto 15px auto;
+}
+
+.PostName {
+    font-family: 'Courgette', cursive;
+    padding: 5px 0 5px;
+    font-size: 30px;
+}
+
+.PostMessage {
+    font-family: 'Courgette', cursive;
+    padding: 5px 0 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.PostPhoto{
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.PostData {
+    text-align: right;
+}
+
+.img-db {
+    display: none;
+}
